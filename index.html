@@ -1,0 +1,174 @@
+</!DOCTYPE html>
+<html>
+
+<head>
+    <title> ET Demo Static</title>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <!-- POPPER JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <div id="header">
+
+            <div class="container">
+
+                <div id="storeLogo">
+                    <a href="http://everthreadsandbox.com">
+                        <img src="assets/images/store_logo.png">
+                    </a>
+                </div>
+                <div id="headerShortcuts" class="ui-buttonset">
+                    <a href="http://everthreadsandbox.com/shopping_cart.php"><span>CART CONTENTS</span></a>
+                    <a href="http://everthreadsandbox.com/checkout_shipping.php"><span>CHECKOUT</span></a>
+                    <a href="http://everthreadsandbox.com/account.php"><span>MY ACCOUNT</span></a>
+                </div>
+            </div>
+        </div>
+
+
+        <main class="container-fluid">
+            <div class="row">       
+               
+                <div class="col-md-4 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-12 image-view">
+                            <img id="product" src="assets/images/products/sample.png" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="">
+                        <img id="love" class="favorite-heart" src="assets/images/love1.png">
+                        <h2>Men's Casual Clothing</h2>
+                    </div>
+                    <br>
+                    <div style="font-size: 12px; font-family: Gotham ExtraLight">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus vestibulum diam ac semper. Sed ullamcorper porttitor
+                        dignissim. 
+                    </div>
+                    <br>
+                    <br>
+                    <div class="tab-panel">
+                        <ul class="nav nav-tabs flex-container">
+                            <li class="active">
+                                <a href="#jacket">Jacket</a>
+                            </li>
+                            <li>
+                                <a href="#sweater">Sweater</a>
+                            </li>
+                            <li>
+                                <a href="#shirt">Shirt</a>
+                            </li>
+                            <li>
+                                <a href="#pants">Pants</a>
+                            </li>
+                            <li>
+                                <a href="#shoes">Shoes</a>
+                            </li>     
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <!-- JACKET PANEL -->
+                            <div id="jacket" class="tab-pane fade in active">
+                                <br>
+                                <div class="options-container">
+                                    <div data-target="o6" data-color="1" class="item-color-option jacket-blue">
+                                    </div>
+                                    
+                                    <div data-target="o6" data-color="2" class="item-color-option jacket-brown active">                                 
+                                    </div>
+                                    
+                                    <div data-target="o6" data-color="3" class="item-color-option jacket-gray">
+                                    </div>
+                                    
+                                    <div data-target="o6" data-color="4" class="item-color-option jacket-light-gray">
+                                    </div>                                     
+                                </div>
+                            </div>
+
+                            <!-- SWEATER PANEL -->
+                            <div id="sweater" class="tab-pane fade">
+                                <br>
+                                <div class="options-container">
+                                    <div data-target="o5" data-color="1" class="item-color-option sweater-blue active"></div>
+
+                                    <div data-target="o5" data-color="2" class="item-color-option sweater-green"></div>
+
+                                    <div data-target="o5" data-color="3" class="item-color-option sweater-red"></div>
+
+                                    <div data-target="o5" data-color="4" class="item-color-option sweater-off-white"></div>
+                                </div>
+                            </div>
+
+                            <!-- Shirt PANEL -->
+                            <div id="shirt" class="tab-pane fade">
+                                <br>
+                                <div class="options-container"> 
+                                    <div data-target="o4" data-color="1" class="item-color-option shirt-blue"></div>
+
+                                    <div data-target="o4" data-color="3" class="item-color-option shirt-pink"></div>
+
+                                    <div data-target="o4" data-color="2" class="item-color-option shirt-gray"></div>
+
+                                    <div data-target="o4" data-color="4" class="item-color-option shirt-white active"></div>
+                                </div>
+                            </div>
+
+
+                            <!-- Pants PANEL -->
+                            <div id="pants" class="tab-pane fade">
+                                <br>
+                                <div class="options-container">
+                                    <div data-target="o3" data-color="1" class="item-color-option pants-blue"></div>
+
+                                    <div data-target="o3" data-color="2" class="item-color-option pants-brown active"></div>
+
+                                    <div data-target="o3" data-color="3" class="item-color-option pants-gray"></div>
+
+                                    <div data-target="o3" data-color="4" class="item-color-option pants-khaki"></div>
+                                </div>
+                            </div>
+
+                            <!-- Shoes PANEL -->
+                            <div id="shoes" class="tab-pane fade">                                
+                                <br>
+                                <div class="options-container">
+
+                                    <div data-target="o1" data-color="1" class="item-color-option shoes-blue"></div>
+
+                                    <div data-target="o1" data-color="2" class="item-color-option shoes-brown"></div>
+
+                                    <div data-target="o1" data-color="3" class="item-color-option shoes-gray active"></div>
+
+                                    <div data-target="o1" data-color="4" class="item-color-option shoes-black"></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/casualClothing.js"></script>
+    
+</body>
+
+</html>

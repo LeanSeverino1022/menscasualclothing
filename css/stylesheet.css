@@ -1,0 +1,1154 @@
+/*
+  $Id$
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2010 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+.colorway-item img {
+  image-rendering: -webkit-optimize-contrast;
+-webkit-image-rendering: -webkit-optimize-contrast;
+}
+
+/* kitchen */
+
+
+@media all and (min-width: 1000px) {
+.kitchen #kitchen-gallery {min-width: 700px;}
+}
+
+@media all and (min-width: 1300px) {
+.kitchen #kitchen-gallery {min-width: 750px;}
+}
+
+@media all and (min-width: 1400px) {
+.kitchen #kitchen-gallery {min-width: 850px; margin-left: -70px;}
+.right-side-php {margin-right: -50px;}
+}
+
+@media all and (min-width: 1500px) {
+.kitchen #kitchen-gallery {min-width: 950px; margin-left: -120px;}
+.right-side-php {margin-right: -90px;}
+}
+
+.roundt {margin-top: 10px; margin-bottom: 10px;}
+
+.kitchen #kitchen-gallery {    margin-top: 0px;
+  float: left;
+  width: 55%;
+
+  min-height: 200px;}
+.kitchen .footer-everthread {}
+
+.kitchen #sku {display: none;}
+.roundt {float: left; width: 70px; height: 70px; margin-right: 6px; cursor: pointer;}
+.roundt img { border-radius: 50% !important; width: 70px;}
+
+#kitchen-gallery img {width: 100%; max-width: 100%; height: auto; position: absolute; top:; left: 0;}
+#kitchen-gallery {position: absolute !important; left: 0; top: 0; background: red; max-width: 700px;}
+
+.kitchen .right-side-php {float: right !important;}
+
+.backsplash {z-index: 11;}
+.floor {z-index: 10;}
+
+/* ZOOM
+#kitchen-gallery img {min-width: 700px; left: 0;}
+#kitchen-gallery:hover img {min-width: 1000px !important; left: 14%;}
+#kitchen-gallery:hover img, #kitchen-gallery img, #kitchen-gallery  {transition: all 0.4s ease; -webkit-transition: all 0.4s ease;}
+#kitchen-gallery {background: transparent !important; z-index: 9999999 !important;}
+
+*/
+
+/* end kitchen */
+
+
+/* New stuff */
+@font-face {
+font-family:'GothamHTF-Bold';
+src: url('fonts/GothamHTF-Bold.eot');
+src: url('fonts/GothamHTF-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamHTF-Bold.woff') format('woff'),
+  url('fonts/GothamHTF-Bold.ttf') format('truetype'),
+  url('fonts/GothamHTF-Bold.svg#GothamHTF-Bold') format('svg');
+font-weight: 700;
+font-style: normal;
+font-stretch: normal;
+unicode-range: U+0020-00FE;
+}
+
+@font-face {
+font-family:'GothamHTF-Light';
+src: url('fonts/GothamHTF-Light.eot');
+src: url('fonts/GothamHTF-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamHTF-Light.woff') format('woff'),
+  url('fonts/GothamHTF-Light.ttf') format('truetype'),
+  url('fonts/GothamHTF-Light.svg#GothamHTF-Light') format('svg');
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+unicode-range: U+0020-00FE;
+}
+
+
+@font-face {
+font-family:'GothamHTF-Book';
+src: url('fonts/GothamHTF-Book.eot');
+src: url('fonts/GothamHTF-Book.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamHTF-Book.woff') format('woff'),
+  url('fonts/GothamHTF-Book.ttf') format('truetype'),
+  url('fonts/GothamHTF-Book.svg#GothamHTF-Book') format('svg');
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+unicode-range: U+0020-00FE;
+}
+
+@font-face {
+font-family: 'Sentinel Book';
+src: url('fonts/Sentinel-Book.eot');
+src: url('fonts/Sentinel-Book.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Sentinel-Book.woff') format('woff'),
+  url('fonts/Sentinel-Book.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+#pattern1, #pattern2, #pattern4, #pattern6, #pattern7 {display: none;}
+
+.green-btn {font-family:'GothamHTF-Bold'; color:#fff; background: #51b992; padding: 8px 17px; float: right; font-size: 11px; letter-spacing: 1px;}
+
+.errormsg {color: #51b992; font-size: 18px; margin-bottom: 20px; margin-top: 20px; font-family:'GothamHTF-Book';}
+
+.pdp-lifestyle .favorite-heart {right: 0;}
+.pdp-lifestyle .right-side-php {margin-top: 10px;}
+
+.pdp-lifestyle .right-side-php {background: #fff; padding: 10px 15px 0px 15px; box-shadow: 0 0 30px rgba(0,0,0,0.10); -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.10);}
+
+body, p {font-family:'GothamHTF-Book';}
+#headerShortcuts .ui-button-text {margin-left: 6px; }
+
+.contentText .ui-selectmenu-button { float:left; max-width: 17%; margin-right: 1%; margin-left: 1%; margin-top: 1%; margin-bottom: 1%;}
+.hthumbs-container {float:left; width: 100%; clear: both; margin-top: 20px;}
+.hthumb {float:left; margin-left: 20px; margin-right: 20px; text-align: center; cursor: pointer;}
+.hthumb-text {float:left; width: 100%; text-align: center; margin-top: 14px;}
+.classleft1 {margin-left: -10px;}
+
+
+
+
+#header .ui-button-text, #tdb1, #tdb2, #tdb3 {
+font-family: 'GothamHTF-Book' !important;
+  background: transparent !important;
+  border: medium none !important;
+  text-shadow: none !important;
+color: #111;
+  -webkit-text-shadow: none !important;
+  opacity: 1 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {border-radius: 0 !important;}
+
+
+.pdp_page span[role="combobox"] {display: none;}
+
+
+.contentText br, .contentText strong {display: none;}
+.contentText select {float:left; margin-right: 10px; width:23%; margin-bottom: 10px;}
+.gallery {margin-top: 30px;}
+
+
+#header.sticky {background: #222;}
+#header.sticky .ui-button-text {color: #fff !important;}
+#header .ui-button-text, #header.sticky .ui-button-text, #header, #header.sticky {transition: all 0.4s ease; -webkit-transition: all 0.4s ease;}
+
+
+
+#header .ui-state-default, #header .ui-widget-content #header .ui-state-default, #header .ui-widget-header .ui-state-default {color: #fff !important;  opacity: 1; background: transparent !important; border: medium none;}
+#header {padding-top: 0px;}
+.ui-widget-header {background: transparent !important; border: medium none !important; color: #222;}
+.headerNavigation {color: #b8b8b8 !important; font-weight: 100; margin-left: 3px; margin-right: 3px;}
+.grid_24.ui-widget.infoBoxContainer .ui-widget-header.infoBoxHeading:nth-child(1) {margin-left: -20px !important;}
+
+
+/* readjust width of main container */
+
+html, body {font-family: 'GothamHTF-Light' !important; font-weight: 300;}
+h1 {font-family: 'GothamHTF-Light' !important; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;}
+
+.ui-widget-content.infoBoxContents a {font-size: 13px;}
+form[name="manufacturers"] {display: none;}
+
+#thumbs {
+  float: left;
+  max-width: 100px;
+  
+}
+
+
+#thumbs ul li {border: medium none !important; margin-bottom: -10px !important;}
+#thumbs ul li img {max-width: 80px !important;}
+
+#eta_product_image img {    max-width: 430px;
+  margin-top: -10px;
+  min-width: 430px;}
+.lightbox img {min-width: 700px !important; height: auto;}
+
+.infoBoxHeading {display: none;}
+.infoBoxContents {border: medium none !important;}
+#bodyContent .contentText {max-width: 100%;
+  font-size: 13px;
+  line-height: 2.0em;}
+#header {background: #fff;width: 100%;position: fixed;left: -5px;top: 0;z-index: 99;}
+#header .container {width: 1100px; margin: 0 auto;}
+#columnLeft, #bodyContent {margin-top: 120px;}
+
+
+.ui-button .ui-icon {
+  background-image: url(images/ui-icons_888888_256x240.png) !important;
+  margin-left: 5px !important; margin-top: -9px;
+}
+
+
+#storeLogo {width: 150px;}
+#storeLogo img {    width: 80%;
+  height: auto;
+  image-rendering: -webkit-optimize-contrast;}
+
+a, a:hover {transition: all 0.4s ease; -webkit-transition: all 0.4s ease;}
+#columnLeft a:hover {color: #51b992;}
+a {text-decoration: none !important;}
+#columnLeft a {padding-bottom: 7px; display:inline-block; font-size: 13px;}
+#columnLeft {border-right: 1px solid #222; }
+
+
+.ui-widget {font-family: 'GothamHTF-Light' !important; font-weight: 300 !important;}
+
+/*
+.container_24 {min-width: 1100px;}
+.container_24 .grid_24 {min-width: 100%;}
+
+.container_24 .grid_16 {min-width: 76%;}
+.container_24 .grid_4 {min-width: 180px;}
+.container_24 .pull_16 {left: -855px !important;}
+.container_24 .push_4 {left: 245px !important;}
+*/
+/* END: readjust width of main container */
+
+
+/* END new stuff */
+
+
+
+
+.ui-widget {
+font-family: 'GothamHTF-Light', Lucida Sans, Verdana, Arial, sans-serif;
+font-size: 11px;
+}
+
+body {
+background: #fff;
+color: #000;
+margin: 0px;
+font-size: 11px;
+font-family: 'GothamHTF-Light', Lucida Sans, Verdana, Arial, sans-serif;
+}
+
+#bodyWrapper {
+}
+
+#bodyContent {
+}
+
+#header {
+height: 88px;
+}
+
+#storeLogo {
+float: left;
+margin-top: 5px;
+}
+
+#headerShortcuts {
+float: right;
+margin-top: 38px;
+}
+
+#columnLeft {
+padding-top: 5px;
+}
+
+#columnRight {
+padding-top: 5px;
+}
+
+.infoBoxContainer { }
+
+.infoBoxHeading {
+padding: 2px;
+font-size: 11px;
+}
+
+.infoBoxContents {
+padding: 5px;
+font-size: 11px;
+line-height: 1.5;
+}
+
+.contentContainer {
+padding-bottom: 10px;
+}
+
+h2 {    text-decoration: none;
+  font-family: 'GothamHTF-Light';
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #222;
+  font-size: 28px;}
+
+.contentText, .contentText table {
+padding: 5px 0 5px 0;
+font-size: 11px;
+line-height: 1.5;
+}
+
+.productListTable {
+padding: 5px;
+font-size: 11px;
+line-height: 1.5;
+}
+
+.productListTable tr.alt td {
+background-color: #ecf6fc;
+}
+
+.fieldKey {
+font-size: 11px;
+font-weight: bold;
+line-height: 1.5;
+width: 150px;
+}
+
+.fieldValue {
+font-size: 11px;
+line-height: 1.5;
+}
+
+h1 {
+font-size: 20px;
+margin-bottom: 0;
+padding-bottom: 5px;
+}
+
+img {
+border: 0;
+}
+
+table, p {
+font-size: 11px;
+line-height: 1.5;
+}
+
+#piGal {
+float: right;
+width: 250px;
+}
+
+#piGal img {
+max-width: 250px;
+height: auto;
+}
+
+.buttonSet {
+clear: both;
+}
+
+.buttonAction {
+float: right;
+}
+
+.boxText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.errorBox { font-family : Verdana, Arial, sans-serif; font-size : 10px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #cc0033; }
+.productsNotifications { background: #f2fff7; }
+.orderEdit { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
+
+A {
+color: #000000;
+text-decoration: none;
+}
+
+A:hover {
+text-decoration: underline;
+}
+
+FORM {
+display: inline;
+}
+
+TR.header {
+background: #ffffff;
+}
+
+TR.headerNavigation {
+background: #bbc3d3;
+}
+
+TD.headerNavigation {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+background: #bbc3d3;
+color: #ffffff;
+font-weight : bold;
+}
+
+A.headerNavigation { 
+color: #FFFFFF; 
+}
+
+A.headerNavigation:hover {
+color: #ffffff;
+}
+
+TR.headerError {
+background: #ff0000;
+}
+
+TD.headerError {
+font-family: Tahoma, Verdana, Arial, sans-serif;
+font-size: 12px;
+background: #ff0000;
+color: #ffffff;
+font-weight : bold;
+text-align : center;
+}
+
+TR.headerInfo {
+background: #00ff00;
+}
+
+TD.headerInfo {
+font-family: Tahoma, Verdana, Arial, sans-serif;
+font-size: 12px;
+background: #00ff00;
+color: #ffffff;
+font-weight: bold;
+text-align: center;
+}
+
+TR.footer {
+background: #bbc3d3;
+}
+
+TD.footer {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+background: #bbc3d3;
+color: #ffffff;
+font-weight: bold;
+}
+
+.infoBox {
+background: #b6b7cb;
+}
+
+.infoBoxNotice {
+background: #FF8E90;
+}
+
+.infoBoxNoticeContents {
+background: #FFE6E6;
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+}
+
+TD.infoBoxHeading {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+font-weight: bold;
+background: #bbc3d3;
+color: #ffffff;
+}
+
+TD.infoBox, SPAN.infoBox {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+}
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+background: #f8f8f9;
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+background: #f8f8f9;
+}
+
+TABLE.productListing {
+border: 1px;
+border-style: solid;
+border-color: #b6b7cb;
+border-spacing: 1px;
+}
+
+.productListingHeader {
+table-layout: fixed;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.productListingHeader A:hover {
+color: #FFFFFF;
+}
+
+.productListingData {
+table-layout: fixed;
+}
+
+A.pageResults {
+color: #0000FF;
+}
+
+A.pageResults:hover {
+color: #0000FF;
+background: #FFFF33;
+}
+
+TD.pageHeading, DIV.pageHeading {
+font-family: Verdana, Arial, sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: #9a9a9a;
+}
+
+TR.subBar {
+background: #f4f7fd;
+}
+
+TD.subBar {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+color: #000000;
+}
+
+TD.main, P.main {
+font-family: Verdana, Arial, sans-serif;
+font-size: 11px;
+line-height: 1.5;
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+font-family: 'GothamHTF-Book';
+  font-size: 11px;
+}
+
+TD.accountCategory {
+font-family: Verdana, Arial, sans-serif;
+font-size: 13px;
+color: #aabbdd;
+}
+
+TD.tableHeading {
+font-family: Verdana, Arial, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+SPAN.newItemInCart {
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+color: #ff0000;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+font-family: Verdana, Arial, sans-serif;
+font-size: 11px;
+}
+
+TEXTAREA {
+width: 100%;
+font-family: Verdana, Arial, sans-serif;
+font-size: 11px;
+}
+
+SPAN.greetUser {
+font-family: Verdana, Arial, sans-serif;
+font-size: 12px;
+color: #51b992;
+font-weight: bold;
+}
+
+TABLE.formArea {
+background: #f1f9fe;
+border-color: #7b9ebd;
+border-style: solid;
+border-width: 1px;
+}
+
+TD.formAreaTitle {
+font-family: Tahoma, Verdana, Arial, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+font-family: Tahoma, Verdana, Arial, sans-serif;
+font-size: 12px;
+color: #c76170;
+font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+font-family: Verdana, Arial, sans-serif;
+color: #ff0000;
+}
+
+SPAN.errorText {
+font-family: Verdana, Arial, sans-serif;
+color: #ff0000;
+}
+
+.moduleRow { }
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+.moduleRowSelected { background-color: #E9F4FC; }
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8c8c8c; }
+.checkoutBarCurrent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; }
+
+/* message box */
+
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #99ff00; }
+
+/* input requirement */
+
+.inputRequirement { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+
+/* buttons */
+
+.tdbLink a { }
+
+.tdbLink button { }
+
+/* account link list */
+
+.accountLinkList {
+list-style-type: none;
+margin: 2px 2px 2px 10px;
+padding: 5px;
+}
+
+.accountLinkListEntry {
+float: left;
+margin-right: 5px;
+}
+
+
+
+/* DEMO CSS: For sandbox store products OS Commerce for Shop.org show created 9-19-17 */
+
+.pdp-settee .clr {display: none;}
+.page-pdp #eta_gallery {margin-top: 30px;position: relative;z-index: 999999999;}
+.page-pdp #tabs {position: relative; z-index: 9999999;}
+
+.page-pdp #header {z-index: 9999; position: relative;}
+.page-pdp #headerShortcuts .ui-button-text {margin-left: -15px;}
+.page-pdp #columnLeft, .page-pdp #bodyContent {margin-top: 10px;}
+.page-pdp #header.sticky {background: #fff;}
+
+.page-pdp .hthumbs-container,
+.page-pdp h1 {display: none;}
+.pdp-settee .gallery {
+  margin-top: 0px;
+  float:left;
+  width: 55%;
+min-width: 700px;
+  min-height: 200px;
+
+}
+
+.page-pdp #sku.smallText {margin-top: 7px; float:left; width: 100%; clear: both; margin-bottom:10px;}
+
+.page-pdp .pdpPrice {
+    font-family: 'Sentinel Book' !important;
+  display: block;
+  font-weight: 100;
+  letter-spacing: 0px;
+  font-size: 24px;
+  margin-top: 4px;
+
+}
+.page-pdp .addCartButtons .ui-button-text-icon-primary .ui-button-text {min-width: 110px;}
+.page-pdp #tabs .grid_24 {display: none;}
+.page-pdp .right-side-php {float:left; width: 35%;     min-width: 400px;}
+.page-pdp #tabs {width: 100%;}
+.page-pdp #headerShortcuts {}
+.page-pdp #headerShortcuts {padding-top: 10px;}
+#headerShortcuts .ui-icon {margin-left: -10px !important;}
+
+label, input {outline: 0 !important;}
+
+
+/* 
+CODE FOR HORIZONTAL TABS 
+https://codepen.io/thierry/pen/RrQpzK
+*/
+
+
+dt {
+font-weight: bold;
+}
+
+dl {
+margin-bottom: 50px;
+}
+
+#bug:target {
+outline: 4px solid #ccc;
+}
+
+/**
+* tab panel widget
+*/
+.tabPanel-widget {
+position: relative;  /* containing block for headings (top:0) */
+background: #f6f6f6;
+}
+.tabPanel-widget h2 {font-family:'GothamHTF-Bold'; text-transform: uppercase;}
+/**
+* because labels come first in source order - we use z-index to move them in front of the headings
+*/
+.tabPanel-widget > label {
+position: absolute;
+z-index: 1;
+}
+
+/**
+* labels and headings must share same values so grouping declarations in this rule prevents async edits (risk of breakage)
+* line-height == height -> vertical centering
+* the width dictates the offset for all headings but the first one: left offset = width * number of previous heading(s)
+* note that width and offset of label/heading pair can be customized if necessary
+*/
+
+.tabPanel-widget > label,
+.tabPanel-widget > h2 {
+font-size: 1.0em;
+  width: 9em;
+  height: 3.7em;
+  line-height: 4.3em;
+}
+
+/**
+* position:relative is for the markers (the down arrow in tabs)
+*/
+.tabPanel-widget > h2 {
+position: relative;
+margin: 0;
+text-align: center;
+background: #f6f6f6;
+color: #222;
+}
+
+.tabPanel-widget > label {
+border-right: 0px solid #fff;
+}
+
+/**
+* all first level labels and headings after the very first ones 
+*/
+.tabPanel-widget input,
+.tabPanel-widget > label ~ label,
+.tabPanel-widget > h2 ~ h2 {
+position: absolute;
+top: 0;
+}
+
+
+/**
+* We target all the label/heading pairs
+* we increment the :nth-child() params by 4 as well as the left value (according to "tab" width)
+*/
+
+.tabPanel-widget label:nth-child(1),
+.tabPanel-widget h2:nth-child(3) {
+left: 0em;
+color: #51b992;
+}
+
+.tabPanel-widget label:nth-child(5),
+.tabPanel-widget h2:nth-child(7) {
+left: 9em;
+color: #51b992;
+}
+
+.tabPanel-widget label:nth-child(9),
+.tabPanel-widget h2:nth-child(11) {
+left: 18em;
+color: #51b992;
+}
+
+/**
+* we visually hide all the panels
+* https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html
+*/
+.tabPanel-widget input + h2 + div {
+position: absolute !important;
+clip: rect(1px, 1px, 1px, 1px);
+padding:0 !important;
+border: 2px solid #f6f6f6;
+height: 1px !important;
+width: 1px !important;
+overflow: hidden;
+}
+/**
+* we reveal a panel depending on which control is selected 
+*/
+.tabPanel-widget input:checked + h2 + div {
+position: static !important;
+padding: 1em !important;
+height: auto !important; 
+width: auto !important; 
+}
+
+/**
+* shows a hand cursor only to pointing device users
+*/
+.tabPanel-widget label:hover {
+cursor: pointer;
+}
+
+.tabPanel-widget > div {
+background: #FFF;
+padding: 1em;
+}
+
+/**
+* we hide radio buttons and also remove them from the flow
+*/
+.tabPanel-widget input[name="tabs"] {
+opacity: 0;
+position: absolute;
+}
+
+
+/** 
+* this is to style the tabs when they get focus (visual cue)
+*/
+
+.tabPanel-widget input[name="tabs"]:focus + h2 {
+outline: 1px dotted #000;
+outline-offset: 10px;
+}
+
+
+/**
+* reset of the above within the tab panel (for pointing-device users)
+*/
+.tabPanel-widget:hover h2 {
+outline: none !important;
+}
+
+/**
+* visual cue of the selection
+*/
+.tabPanel-widget input[name="tabs"]:checked + h2 {
+background: #f6f6f6;
+border-bottom: 3px solid #222;
+color: #222;
+}
+
+/**
+* the marker for tabs (down arrow)
+*/
+.tabPanel-widget input[name="tabs"]:checked + h2:after {
+content: '';
+margin: auto;
+position: absolute;
+bottom: -10px;
+opacity: 0;
+left: 0;
+right: 0;
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-top: 10px solid #333;
+}
+
+/**
+* Make it plain/simple below 45em (stack everything)
+*/
+@media screen and (max-width: 45em) {
+
+/* hide unecessary label/control pairs */
+.tabPanel-widget label,
+.tabPanel-widget input[name="tabs"] {
+  display: none;
+}
+
+/* reveal all panels */
+.tabPanel-widget > input + h2 + div {
+  display: block !important;
+  position: static !important;
+  padding: 1em !important;
+  height: auto !important; 
+  width: auto !important; 
+}
+
+/* "unstyle" the heading */
+.tabPanel-widget h2 {
+  width: auto;
+  position: static !important;
+  background: #999 !important;
+}
+
+/* "kill" the marker */
+.tabPanel-widget h2:after {
+  display: none !important;
+}
+
+}
+
+/**
+* Make it plain/simple below 45em (stack everything)
+*/
+@media screen and (max-width: 45em) {
+
+/* hide unecessary label/control pairs */
+.tabPanel-widget label,
+.tabPanel-widget input[name="tabs"] {
+  display: none;
+}
+
+/* reveal all panels */
+.tabPanel-widget > input + h2 + div {
+  display: block !important;
+  position: static !important;
+  padding: 1em !important;
+  height: auto !important; 
+  width: auto !important; 
+}
+
+/* "unstyle" the heading */
+.tabPanel-widget h2 {
+  width: auto;
+  position: static !important;
+  background: #999 !important;
+}
+
+/* "kill" the marker */
+.tabPanel-widget h2:after {
+  display: none !important;
+}
+
+}
+
+
+/* 
+END:
+CODE FOR HORIZONTAL TABS 
+https://codepen.io/thierry/pen/RrQpzK
+*/
+
+
+.page-pdp .addCartButtons {
+     position: relative;
+  top: unset;
+  right: unset;
+  margin: 15px auto;
+  text-align: center;
+  left: unset;
+  width: 100%;
+  clear: both;
+  z-index: 999;
+}
+.pdp-settee .pattern-change {max-width: 50px; max-height: 50px; margin-bottom: 6px;}
+.pdp-settee #pattern7 {clear:both;}
+
+label, input, h1, h2 {outline: 0 !important;}
+
+.pdp-description {
+font-family:'GothamHTF-Book';
+color: #111;
+line-height: 1.7em;
+font-size: 11px;
+padding-bottom: 18px;
+text-shadow: 1px 2px 0px rgba(255,255,255,0.55);
+-webkit-text-shadow: 1px 2px 0px rgba(255,255,255,0.55);
+}
+.descMain {display: none;}
+.pdpName h2 {font-family: 'Sentinel Book'; color: #111; font-weight: 100; text-shadow: 1px 2px 0px rgba(255,255,255,0.55); -webkit-text-shadow: 1px 2px 0px rgba(255,255,255,0.55);}
+
+.trim-tab {float:left; clear: both; width: 100%; margin-top: 0px; text-align: center;}
+.trim-tab img {width: 100%; height: 100%;}
+.trim-tab div {overflow: hidden; width: 65px; height: 65px; cursor: pointer;float:left;margin-right: 7px; border: 2px solid rgba(0,0,0,0); border-radius: 50%;}
+.scale-change {width: 65px !important; height: 65px !important;}
+.scaling-tab h2, .color-tab h2, .fabric-tab h2 {
+font-weight: 100;
+  font-size: 17px;
+  color: #222 !important;
+  min-width: 100%;
+  clear: both;
+  float: left;
+  font-family: 'GothamHTF-Book' !important;
+  text-transform: none !important;
+}
+.pdp-lifestyle #eta_product_image img {min-width: 700px !important; max-width: 700px !important; width: 700px !important; }
+
+.pdp-lifestyle #bodyWrapper {
+  width: 100%;
+  background-image: url(thumbs/lifestyle/bg.jpg);
+  background-size: auto;
+  min-height: 702px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-bottom: -60px;
+}
+.pdp-lifestyle #thumbs {display:none;}
+
+.pdp-lifestyle #eta_product_image img {
+  position: absolute;
+  left: -5px;
+  top: -118px;
+
+}
+
+.pdpName {position: relative; padding-right: 20px;}
+.favorite-heart {position: absolute; right: -10px; top:8px; max-width: 23px; cursor: pointer;}
+
+.ever-footer {float:left; width: 100%; clear: both; text-align: center; margin-bottom: 0; position: absolute;  z-index: 9999999999; margin-top: 60px;}
+.ever-footer img {width: 100%; min-width: 1200px;}
+body {overflow-x: hidden;}
+
+.page-pdp .addCartButtons {background: #fff; padding: 12px 0px;}
+.pdp-lifestyle .ui-button-text-icon-primary {margin-right: 20px !important;}
+.pdp-lifestyle .pdpPrice {margin-left: 20px;  }
+
+
+.pdp-lifestyle .cart-actions {float: right; margin-top: 10px;}
+.pdp-lifestyle .pdpPrice {margin-top: 10px !important;}
+input[name="cart_quantity"] {float: left; margin-right: 10px; height: 34px; text-align: center; font-family: 'GothamHTF-Book'; font-size: 14px; color: #111; padding: 0 6px;
+border: 1px solid #dfdfdf;}
+
+#currPattern,
+#currColor_1,
+#currColor_2,
+#currColor_3,
+#currColor_4,
+#currO1 {display: none;}
+
+.simple-text-option {float:left; width: 55px; height: 55px; background: #fff; border-radius: 50%; margin-right: 7px;
+line-height: 55px; text-align: center;
+font-size: 12px; font-family:'GothamHTF-Book';  cursor: pointer;}
+.simple-text-option.selected2, .simple-text-option {transition: all 0.4s ease; -webkit-transition: all 0.4s ease;}
+
+.selected2 {background: #222; color: #fff;}
+.manual-gallery {width: 80%; text-align: center; margin-top: 15px;}
+.manual-gallery-main {width: 100%; height: auto;}
+.manual-thumb-1, .manual-thumb-2, .manual-thumb-3 {width: 100px;height: auto;display: inline-block;margin: 10px 7px; cursor: pointer;}
+.bedsize h2 {font-size: 16px; font-family:'GothamHTF-Book'; color: #222; margin-top: 19px; float:left; margin-right:10px; }
+/* END DEMO CSS */
+
+
+.pdp-lifestyle .footer-everthread {display: none;}
+
+.footer-everthread {width:100%; height: 365px; background-color:#0e0e0e; position: absolute; left: 0; bottom: -465px;
+  background-image: url('frontimg/footbg.jpg');
+  background-size: auto;
+  background-repeat: repeat;
+text-align: center;
+  background-position: bottom center;}
+
+.pdp-lifestyle {background-color: #0e0e0e;}
+.footer-everthread2 {width:100%; height: 365px; background-color:#0e0e0e; position: relative;
+width:100%;
+z-index: 9999999999;
+margin-top: 50px;
+float:left; clear: both;
+  background-image: url('frontimg/footbg.jpg');
+  background-size: auto;
+  background-repeat: repeat;
+text-align: center;
+  background-position: bottom center;}
+
+a, area {outline: 0 !important;}
+
+
+/* FADE */
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+opacity:0;  /* make things invisible upon start */
+-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+-moz-animation:fadeIn ease-in 1;
+animation:fadeIn ease-in 1;
+
+-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+-moz-animation-fill-mode:forwards;
+animation-fill-mode:forwards;
+
+-webkit-animation-duration:0.5s;
+-moz-animation-duration:0.5s;
+animation-duration:0.5s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 2.0s;
+-moz-animation-delay: 2.0s;
+animation-delay: 2.0s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 2.1s;
+-moz-animation-delay: 2.1s;
+animation-delay: 2.1s;
+}
+
+.fade-in.five {
+-webkit-animation-delay: 2.7s;
+-moz-animation-delay: 2.7s;
+animation-delay: 2.7s;
+}
+
+/* END FADE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
