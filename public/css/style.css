@@ -61,6 +61,12 @@ img#product {
     width: auto;
 }
 
+.description {
+    font-size: 12px;
+    font-family: "Gotham ExtraLight";
+}
+
+
 .nav-tabs {
     display: flex;
     flex-direction: row;
@@ -117,7 +123,7 @@ img#product {
 }
 
 .item-color-option.active {
-    border: 2px solid #555;
+    border: 3px solid #333;
 }
 
 .jacket-blue {
