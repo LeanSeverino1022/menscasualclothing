@@ -224,6 +224,12 @@ img#product {
 }
 
 @media (min-width: 992px) {
- 
-    
+
+    .product-view {
+        height: calc(100vh - 98px); /* header height 88px + header margin 10px */
+    }    
+
+    .customization-view {
+        margin-left: -100px;
+    }
 }
