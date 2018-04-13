@@ -28,6 +28,7 @@ HEADER STYLES
 *******************/
 #header {
     height: 88px;
+    margin-bottom:10px;
 }
 #storeLogo {
     float: left;
@@ -56,10 +57,6 @@ HEADER STYLES
 /****************** 
 MAIN CONTENT STYLES 
 *******************/
-img#product {
-    height: calc(100vh - 90px);  /* 88px is header height */  
-    width: auto;
-}
 
 .description {
     font-size: 12px;
@@ -81,6 +78,10 @@ img#product {
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     background-color: #f6f6f6;
     border: 0;
+}
+
+.tab-panel .nav li {
+    text-align: center;
 }
 
 /* marker for selected tab */
@@ -110,20 +111,28 @@ img#product {
 /**** COLOR OPTIONS ****/
 
 .item-color-option {
+    
     display: inline-block;
-    height: 50px;
-    width: 50px;    
-   
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+    max-height: 50px;
+    max-width: 50px;  
     margin: 5px;
     cursor: pointer;
     border: 2px solid #fff;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.item-color-option img {  
+    width: 100%;
+    height: auto;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
 }
 
 .item-color-option.active {
-    border: 3px solid #333;
+    border-color: #333;
 }
 
 .jacket-blue {
@@ -171,7 +180,7 @@ img#product {
 }
 
 .shirt-white {
-    background-color: #ced8d9;
+    background-color: #fff;
 }
 
 .pants-blue {
@@ -204,4 +213,17 @@ img#product {
 
 .shoes-black {
     background-color: #191919;
+}
+
+/* rules applicable for current type of images provided. Update code if new version of images no longer work with code*/
+img#product {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 100%;    
+}
+
+@media (min-width: 992px) {
+ 
+    
 }

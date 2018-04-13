@@ -65,7 +65,6 @@ $(document).ready(function () {
                 return;
             }
             
-            // $('.nav-list li.active').removeClass('active');
             $(".item-color-option[data-target='o4']").removeClass('active');
 
             $(this).addClass('active');
