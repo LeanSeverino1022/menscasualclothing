@@ -135,85 +135,6 @@ MAIN CONTENT STYLES
     border-color: #333;
 }
 
-.jacket-blue {
-    background-color: #7d88a1;
-}
-
-.jacket-brown {
-    background-color: #68504f;
-}
-
-.jacket-gray {
-    background-color: #838184;
-}
-
-.jacket-light-gray {
-    background-color: #aaabaa;
-}
-
-.sweater-blue {
-    background-color: #a8bfdd;
-}
-
-.sweater-green {
-    background-color: #c2d7d8;
-}
-
-.sweater-red {
-    background-color: #fb8f92;
-}
-
-.sweater-off-white {
-    background-color: #e2e8e6;
-}
-
-.shirt-blue {
-    background-color: #8ea8bd;
-}
-
-.shirt-pink {
-    background-color: #ddb3b9;
-}
-
-.shirt-gray {
-    background-color: #838383;
-}
-
-.shirt-white {
-    background-color: #fff;
-}
-
-.pants-blue {
-    background-color: #8ea8bd;
-}
-
-.pants-brown {
-    background-color: #544847;
-}
-
-.pants-gray {
-    background-color: #838383;
-}
-
-.pants-khaki {
-    background-color: #7c736a;
-}
-
-.shoes-blue {
-    background-color: #508fcd;
-}
-
-.shoes-brown {
-    background-color: #af764c;
-}
-
-.shoes-gray {
-    background-color: #b6b6b6;
-}
-
-.shoes-black {
-    background-color: #191919;
-}
 
 /* rules applicable for current type of images provided. Update code if new version of images no longer work with code*/
 img#product {
@@ -222,6 +143,7 @@ img#product {
     height: auto;
     max-height: 100%;    
 }
+
 
 @media (min-width: 992px) {
 
